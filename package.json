@@ -1,9 +1,12 @@
 {
-  "name": "react-custom-card",
+  "name": "ascension-custom-card",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "bootstrap": "^4.3.1",
     "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
@@ -21,7 +24,7 @@
     "presets": [
       "@babel/preset-react"
     ]
-    },    
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -33,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
   }
 }
