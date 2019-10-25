@@ -2,6 +2,10 @@
   "name": "ascension-custom-card",
   "version": "0.1.0",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-shams-ascension/ascension-custom-card.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
     "bootstrap": "^4.3.1",
